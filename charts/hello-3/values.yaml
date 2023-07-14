@@ -1,0 +1,11 @@
+replicaCount: 1
+image:
+  repository: nginx
+  tag: "1.14.2"
+service:
+  type: ClusterIP
+  port: 81 #service port
+container:
+  port: 81 #container port 
+nginx:
+  listenPort: 81 #Port which Nginx listens for traffic

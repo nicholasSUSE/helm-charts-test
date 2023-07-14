@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "charts.fullname" . }}
+  name: {{ include "hello-3.fullname" . }}
   labels:
-    {{- include "charts.labels" . | nindent 4 }}
+    {{- include "hello-3.labels" . | nindent 4 }}
 spec:
   replicas: 1
   selector:
     matchLabels:
-      {{- include "charts.selectorLabels" . | nindent 6 }}
+      {{- include "hello-3.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       labels:
-        {{- include "charts.selectorLabels" . | nindent 8 }}
+        {{- include "hello-3.selectorLabels" . | nindent 8 }}
     spec:
       containers:
         - name: {{ .Chart.Name }}
@@ -27,4 +27,4 @@ spec:
       volumes:
         - name: nginx-conf
           configMap:
-            name: {{ include "charts.fullname" . }}-nginx-conf
+            name: {{ include "hello-3.fullname" . }}-nginx-conf

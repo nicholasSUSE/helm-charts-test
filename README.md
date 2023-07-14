@@ -11,7 +11,7 @@ https://www.opcito.com/blogs/creating-helm-repository-using-github-pages
 1. At newRepo/root `helm create charts`
 2. Make any changes and add `robots.txt` as show in this repo
 3. Create .tgx file: `helm package charts`
-4. Create index.yaml file: `helm repo index --url <github_clone_url>`
+4. Create index.yaml file: `helm repo index --url <github_clone_url> .`
 5. Update remote:
     - `git add .`
     - `git commit -m "some message"`
@@ -82,3 +82,20 @@ container:
 nginx:
   listenPort: 81 #Port which Nginx listens for traffic
 ```
+
+---
+##### Updating with new charts
+
+0. Copy paste some chart folder and update the .yaml files
+1. Package everything:
+
+  ```(bash)
+  helm package charts/hello-1 -d packages
+  helm package charts/hello-2 -d packages
+  helm package charts/hello-3 -d packages
+  ```
+2. Regenerate index: `helm repo index --url https://github.com/nicholasSUSE/helm-charts-test .`
+3. Update remote:
+    - `git add .`
+    - `git commit -m "some message"`
+    - `git push origin main`
