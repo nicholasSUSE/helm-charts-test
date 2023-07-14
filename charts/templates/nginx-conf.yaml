@@ -7,9 +7,9 @@ metadata:
 data:
   default.conf: |
     server {
-      listen 80;
+      listen {{ .Values.nginx.listenPort }}; # Use nginx listenPort from values.yaml
       location / {
-        return 200 'Hello, world!';
+        return 200 'Hello Charts World!';
         add_header Content-Type text/plain;
       }
     }
