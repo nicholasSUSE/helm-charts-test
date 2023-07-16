@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   hello-1:
   - apiVersion: v2
+    appVersion: 2.1.0
+    created: "2023-07-16T17:35:51.368996784-03:00"
+    description: A Helm chart Hello World example for Kubernetes with versioning
+    digest: 92df8fa5324e5cd761f6954dfb7f560d654bbfd9c8f4c7f21c7f36845c72ba65
+    name: hello-1
+    type: application
+    urls:
+    - https://github.com/nicholasSUSE/helm-charts-test/packages/hello-1-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-14T19:55:32.144119559-03:00"
+    created: "2023-07-16T17:35:51.368819471-03:00"
     description: A Helm chart Hello World example for Kubernetes with versioning
     digest: 070e63958692bbb852a26d628a60309a04f9e90a58568da0c070afaf9d932db6
     name: hello-1
@@ -14,7 +24,7 @@ entries:
   hello-2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-14T19:55:32.144367543-03:00"
+    created: "2023-07-16T17:35:51.369464359-03:00"
     description: A Helm chart for Kubernetes
     digest: 175feaa3d7bcd2158c96b2317f8dce0f88bcc83ef22b6ed86877da633093f22c
     name: hello-2
@@ -25,7 +35,7 @@ entries:
   hello-3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-14T19:55:32.144925151-03:00"
+    created: "2023-07-16T17:35:51.369888373-03:00"
     description: A Helm chart for Kubernetes
     digest: a6e455402db1045a57788023a3725e3f994a094edfaacd32ebba5d44a2985750
     name: hello-3
@@ -33,14 +43,4 @@ entries:
     urls:
     - https://github.com/nicholasSUSE/helm-charts-test/packages/hello-3-0.1.0.tgz
     version: 0.1.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-07-14T19:55:32.145632005-03:00"
-    description: A Helm chart for Kubernetes
-    digest: b941132a21041f7dca41f6010b26131f8744a36bd0e38d0b5173b9471a552ee6
-    name: hello-3
-    type: application
-    urls:
-    - https://github.com/nicholasSUSE/helm-charts-test/packages~/hello-3-0.1.0.tgz
-    version: 0.1.0
-generated: "2023-07-14T19:55:32.134787941-03:00"
+generated: "2023-07-16T17:35:51.359752736-03:00"

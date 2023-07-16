@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}--configmap
+data:
+  index.html: |-
+    {
+      "chart": "{{ .Chart.Name }}",
+      "version": "{{ .Chart.Version }}"
+    }

@@ -86,16 +86,26 @@ nginx:
 ---
 ##### Updating with new charts
 
-0. Copy paste some chart folder and update the .yaml files
-1. Package everything:
+1. Copy paste some chart folder and update the .yaml files
+2. Package everything:
 
   ```(bash)
   helm package charts/hello-1 -d packages
   helm package charts/hello-2 -d packages
   helm package charts/hello-3 -d packages
   ```
-2. Regenerate index: `helm repo index --url https://github.com/nicholasSUSE/helm-charts-test .`
-3. Update remote:
+
+3. Regenerate index: `helm repo index --url https://github.com/nicholasSUSE/helm-charts-test .`
+4. Update remote:
     - `git add .`
     - `git commit -m "some message"`
     - `git push origin main`
+
+#### Testing
+
+```(bash)
+helm install hello-1-test ./charts/hello-1
+kubectl get all
+helm uninstall hello-1-test
+
+```
