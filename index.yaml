@@ -3,9 +3,9 @@ entries:
   hello-1:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-17T17:01:41.216571783-03:00"
+    created: "2023-07-17T17:10:20.818264971-03:00"
     description: Hello-1 Chart with Ingress + Nginx and automatic job testing
-    digest: fbcc1fcba1756887c87d50e04717f40dda1d13644c9bde8feb66699bb39bbe47
+    digest: 90242d03740ef3f2276b13aae61ac7ab3bba745b16c2723be436d3b17833c0a1
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-1.jpg
     name: hello-1
     urls:
@@ -14,9 +14,9 @@ entries:
   hello-2:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-17T17:01:41.216829878-03:00"
+    created: "2023-07-17T17:10:20.81860296-03:00"
     description: Hello-2 Chart with Ingress + Nginx and automatic job testing
-    digest: 703f26abe4d8264e0e0466a11d6e5a111ab5db2405ec904c8547c88f353385c3
+    digest: 0e4cbbbbc4e8e1f3c686176771483d27f696115e996bd7bb373d4ac79d011ff4
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-2.jpg
     name: hello-2
     urls:
@@ -25,22 +25,12 @@ entries:
   hello-3:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-17T17:01:41.217035993-03:00"
+    created: "2023-07-17T17:10:20.818799476-03:00"
     description: Hello-3 Chart with Ingress + Nginx and automatic job testing
-    digest: 0bf47b46562db47b156a31c509d786f781a63d569379b64e1958ddfbc02f0e7e
+    digest: 5b2f9f637ae5b06c9b246284163890bfdba812c96f86c028b65c6beedb7512b0
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-3.jpg
     name: hello-3
     urls:
     - https://github.com/nicholasSUSE/helm-charts-test/packages/hello-3-1.0.0.tgz
     version: 1.0.0
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2023-07-17T17:01:41.217198392-03:00"
-    description: Hello-3 Chart with Ingress + Nginx and automatic job testing
-    digest: 352db5c9e64e1180f0cfea72b6c2c9548785591a75abae74e59729a72b0ec06c
-    icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-3.jpg
-    name: hello-3
-    urls:
-    - https://github.com/nicholasSUSE/helm-charts-test/packaghes/hello-3-1.0.0.tgz
-    version: 1.0.0
-generated: "2023-07-17T17:01:41.216249482-03:00"
+generated: "2023-07-17T17:10:20.817299702-03:00"
