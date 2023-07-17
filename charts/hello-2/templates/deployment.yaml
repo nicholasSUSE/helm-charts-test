@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Release.Name }}--deployment
+  name: "{{ .Release.Name }}--deployment-{{ .Chart.Version }}"
   labels:
     {{- include "hello-2.labels" . | nindent 4 }}
 spec:
