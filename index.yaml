@@ -3,18 +3,9 @@ entries:
   hello-1:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-17T15:08:05.024566088-03:00"
-    description: '# How-to  - Just give a name and install on a rancher default installation.  -
-      After installed, you will se a command for checking the test result: `kubectl
-      logs job/<release_name>-connection-test` - Open a shell at rancher and run,
-      or run from your terminal if the Kubeconfig is configured for the same cluster.  -
-      Or just go see the logs from the corresponding job pod.   ## Architecture  A
-      Helm chart Hello World example with an automatic job for testing internal connection
-      for Kubernetes with versioning.  Features:  - Automatic job for testing internal
-      connection - Ingress configuration for accessing the application - Nginx container
-      with custom configuration - Service definition for exposing the application
-      - Deployment of the Nginx container - ConfigMap for Nginx configuration '
-    digest: a5051ce558e7d62722728ab0120dc56354af03b0a00cd7cb287246067af77564
+    created: "2023-07-17T15:16:41.223116455-03:00"
+    description: Hello-1 Chart with Ingress + Nginx and automatic job testing
+    digest: d62e4d978878f5d387971925093c184c981c402f23c32d672ec40831bb1efb21
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-1.jpg
     name: hello-1
     urls:
@@ -23,18 +14,9 @@ entries:
   hello-2:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-17T15:08:05.024813465-03:00"
-    description: '# How-to  - Just give a name and install on a rancher default installation.  -
-      After installed, you will se a command for checking the test result: `kubectl
-      logs job/<release_name>-connection-test` - Open a shell at rancher and run,
-      or run from your terminal if the Kubeconfig is configured for the same cluster.  -
-      Or just go see the logs from the corresponding job pod.   ## Architecture  A
-      Helm chart Hello World example with an automatic job for testing internal connection
-      for Kubernetes with versioning.  Features:  - Automatic job for testing internal
-      connection - Ingress configuration for accessing the application - Nginx container
-      with custom configuration - Service definition for exposing the application
-      - Deployment of the Nginx container - ConfigMap for Nginx configuration '
-    digest: 20a10920ed5d0c24a23348caf5bb68ac9459e2172f68f2adbe118b7fd940c834
+    created: "2023-07-17T15:16:41.223261782-03:00"
+    description: Hello-2 Chart with Ingress + Nginx and automatic job testing
+    digest: 727b9abb1e4a46e5807fcd317fc129c018dc6b0d0271738ed4a64e3bc315d1cd
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-2.jpg
     name: hello-2
     urls:
@@ -43,21 +25,12 @@ entries:
   hello-3:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-17T15:08:05.025032536-03:00"
-    description: '# How-to  - Just give a name and install on a rancher default installation.  -
-      After installed, you will se a command for checking the test result: `kubectl
-      logs job/<release_name>-connection-test` - Open a shell at rancher and run,
-      or run from your terminal if the Kubeconfig is configured for the same cluster.  -
-      Or just go see the logs from the corresponding job pod.   ## Architecture  A
-      Helm chart Hello World example with an automatic job for testing internal connection
-      for Kubernetes with versioning.  Features:  - Automatic job for testing internal
-      connection - Ingress configuration for accessing the application - Nginx container
-      with custom configuration - Service definition for exposing the application
-      - Deployment of the Nginx container - ConfigMap for Nginx configuration '
-    digest: d606f4a6641ce4705a41fcc4578a034d493d1fe0bbac76494d091a0b8d1391cb
+    created: "2023-07-17T15:16:41.223404608-03:00"
+    description: Hello-3 Chart with Ingress + Nginx and automatic job testing
+    digest: 95cea6375c0508656ce5e5e64979a00fd44809012364afc215fec01580c13677
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-3.jpg
     name: hello-3
     urls:
     - https://github.com/nicholasSUSE/helm-charts-test/packages/hello-3-1.0.0.tgz
     version: 1.0.0
-generated: "2023-07-17T15:08:05.024229117-03:00"
+generated: "2023-07-17T15:16:41.222869551-03:00"
