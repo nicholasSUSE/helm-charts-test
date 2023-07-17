@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   hello-1:
   - apiVersion: v2
+    appVersion: 5.0.0
+    created: "2023-07-17T16:21:41.878725738-03:00"
+    description: Hello-1 Chart with Ingress + Nginx and automatic job testing
+    digest: 8ed69b12666e1c86465f737042c895c5b4b1d1c87c35ddd63542dab4360bea9c
+    icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-1.jpg
+    name: hello-1
+    urls:
+    - https://github.com/nicholasSUSE/helm-charts-test/packages/hello-1-5.0.0.tgz
+    version: 5.0.0
+  - apiVersion: v2
     appVersion: 4.0.0
-    created: "2023-07-17T16:20:33.400877967-03:00"
+    created: "2023-07-17T16:21:41.878501337-03:00"
     description: Hello-1 Chart with Ingress + Nginx and automatic job testing
     digest: de0a1b3434aca7b28e59dbe987a3cb14769149be69e316e4a75f45aca1a499c0
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-1.jpg
@@ -13,7 +23,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2023-07-17T16:20:33.400513544-03:00"
+    created: "2023-07-17T16:21:41.878366839-03:00"
     description: Hello-1 Chart with Ingress + Nginx and automatic job testing
     digest: 09ec90ae62a47a956e9d9c30bd25b5f1d7f0b8734ce25f9d3e914dfc3309ad79
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-1.jpg
@@ -23,7 +33,7 @@ entries:
     version: 3.0.0
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-07-17T16:20:33.40003298-03:00"
+    created: "2023-07-17T16:21:41.878212586-03:00"
     description: Hello-1 Chart with Ingress + Nginx and automatic job testing
     digest: 2b670eb090a324bf742c1f69a53113631163a5665d5842367aadea8991233280
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-1.jpg
@@ -33,7 +43,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-17T16:20:33.399692902-03:00"
+    created: "2023-07-17T16:21:41.878047475-03:00"
     description: Hello-1 Chart with Ingress + Nginx and automatic job testing
     digest: f5aef60d4fae40c0c9174aed9afec9b0094362736552ae93c7030975099e00e3
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-1.jpg
@@ -43,8 +53,18 @@ entries:
     version: 1.0.0
   hello-2:
   - apiVersion: v2
+    appVersion: 5.0.0
+    created: "2023-07-17T16:21:41.880036759-03:00"
+    description: Hello-2 Chart with Ingress + Nginx and automatic job testing
+    digest: 40500a7bc28e879c594a2662dcac5a8eb2d6aab83de1d471d995f93801a1002b
+    icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-2.jpg
+    name: hello-2
+    urls:
+    - https://github.com/nicholasSUSE/helm-charts-test/packages/hello-2-5.0.0.tgz
+    version: 5.0.0
+  - apiVersion: v2
     appVersion: 4.0.0
-    created: "2023-07-17T16:20:33.401581871-03:00"
+    created: "2023-07-17T16:21:41.879886406-03:00"
     description: Hello-2 Chart with Ingress + Nginx and automatic job testing
     digest: f9d37f91ce36ed665b0b6bf6bf8b700cf7ec1354f62d4b4ca6f2e9d38a89ca42
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-2.jpg
@@ -54,7 +74,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2023-07-17T16:20:33.401424149-03:00"
+    created: "2023-07-17T16:21:41.879728596-03:00"
     description: Hello-2 Chart with Ingress + Nginx and automatic job testing
     digest: 58ed7b70c02e86e3962b5ef191b7227001c4059aa6bc63b5c1d19cadea866b5d
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-2.jpg
@@ -64,7 +84,7 @@ entries:
     version: 3.0.0
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-07-17T16:20:33.40125977-03:00"
+    created: "2023-07-17T16:21:41.879577345-03:00"
     description: Hello-2 Chart with Ingress + Nginx and automatic job testing
     digest: 4b607d21f47dd145b6baf226f81f15b5002a2455e0e08f28eef62c9c770a6832
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-2.jpg
@@ -74,7 +94,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-17T16:20:33.40106534-03:00"
+    created: "2023-07-17T16:21:41.879384098-03:00"
     description: Hello-2 Chart with Ingress + Nginx and automatic job testing
     digest: 7e3a3693b5bb00f0dd3759c87722d426a65e82ea63cd059a79927d98aaa24719
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-2.jpg
@@ -84,8 +104,18 @@ entries:
     version: 1.0.0
   hello-3:
   - apiVersion: v2
+    appVersion: 5.0.0
+    created: "2023-07-17T16:21:41.88076032-03:00"
+    description: Hello-3 Chart with Ingress + Nginx and automatic job testing
+    digest: 40b0cb3edbd0cdd0159d2101680879db032ac69307bb79993ce2cebc6c242703
+    icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-3.jpg
+    name: hello-3
+    urls:
+    - https://github.com/nicholasSUSE/helm-charts-test/packages/hello-3-5.0.0.tgz
+    version: 5.0.0
+  - apiVersion: v2
     appVersion: 4.0.0
-    created: "2023-07-17T16:20:33.402191699-03:00"
+    created: "2023-07-17T16:21:41.880607363-03:00"
     description: Hello-3 Chart with Ingress + Nginx and automatic job testing
     digest: 73d35eb61d3b978aac00e821d900a8e77cbefdc30c49019ed90157044871dde7
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-3.jpg
@@ -95,7 +125,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2023-07-17T16:20:33.402040931-03:00"
+    created: "2023-07-17T16:21:41.880460318-03:00"
     description: Hello-3 Chart with Ingress + Nginx and automatic job testing
     digest: 4c281e47f8b22ee5fc0b08ab53b956c1b1694aee3fe276f4136feb97baa8b791
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-3.jpg
@@ -105,7 +135,7 @@ entries:
     version: 3.0.0
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2023-07-17T16:20:33.401887381-03:00"
+    created: "2023-07-17T16:21:41.880322701-03:00"
     description: Hello-3 Chart with Ingress + Nginx and automatic job testing
     digest: 48edc0f5c10267a94fc3ce7d74cebe4d70ff2aeb3ef0f4da31e21e2a2eab278e
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-3.jpg
@@ -115,7 +145,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-17T16:20:33.401737246-03:00"
+    created: "2023-07-17T16:21:41.880180916-03:00"
     description: Hello-3 Chart with Ingress + Nginx and automatic job testing
     digest: ae8fe10a6cb383e0036496499055599ee41836c90c044324329a30f5a439ed56
     icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-3.jpg
@@ -123,4 +153,4 @@ entries:
     urls:
     - https://github.com/nicholasSUSE/helm-charts-test/packages/hello-3-1.0.0.tgz
     version: 1.0.0
-generated: "2023-07-17T16:20:33.399410251-03:00"
+generated: "2023-07-17T16:21:41.877773087-03:00"
