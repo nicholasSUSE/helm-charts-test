@@ -13,5 +13,5 @@ spec:
       containers:
       - name: test
         image: busybox
-        command: ['sh', '-c', 'output=$(wget -dO- --verbose http://{{ .Release.Name }}--service:{{ .Values.service.port }}/hello-2); echo "$output"']
+        command: ['sh', '-c', 'output=$(wget -O- --no-check-certificate http://{{ .Release.Name }}--service:{{ .Values.service.port }}/hello-2); echo "$output"']
       restartPolicy: Never
