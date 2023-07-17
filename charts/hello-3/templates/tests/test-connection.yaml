@@ -7,10 +7,11 @@ metadata:
     chart: {{ .Chart.Name }}-{{ .Chart.Version }}
     release: {{ .Release.Name }}
 spec:
+  backoffLimit: 5
   template:
     spec:
       containers:
       - name: test
         image: busybox
-        command: ['sh', '-c', 'output=$(wget -qO- http://{{ .Release.Name }}--service:{{ .Values.service.port }}/hello-3); echo "$output"']
+        command: ['sh', '-c', 'output=$(wget -qO- --verbose http://{{ .Release.Name }}--service:{{ .Values.service.port }}/hello-3); echo "$output"']
       restartPolicy: Never
