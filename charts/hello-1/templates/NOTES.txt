@@ -1,3 +1,8 @@
-1. See if it worked:
+See if it worked:
 
 kubectl logs job/{{ .Release.Name }}-connection-test
+
+or just go see the logs on job pod. 
+
+SUCCESS MESSAGE will be something like the following:
+{"chartName": "hello-1", "chartVersion": "<current_chart_version>", "releaseName": "<your_release_name>", "appVersion": "<current_app_version>"}

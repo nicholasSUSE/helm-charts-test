@@ -1,6 +1,6 @@
 apiVersion: v2
 name: hello-1
-description: A Helm chart Hello World example for Kubernetes with versioning
+description: A Helm chart Hello World example with automatic job for testing internal connection for Kubernetes with versioning
 type: application
-version: 1.1.0
-appVersion: "2.1.0"
+version: 2.0.0
+appVersion: "3.0.0"

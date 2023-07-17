@@ -3,14 +3,14 @@ kind: Ingress
 metadata:
   name: {{ .Release.Name }}--ingress
   labels:
-    {{- include "hello-1.labels" . | nindent 4 }}
+    {{- include "hello-2.labels" . | nindent 4 }}
 spec:
   rules:
   - host: "localhost"
     http:
       paths:
       - pathType: Prefix
-        path: "/hello-1"
+        path: "/hello-2"
         backend:
           service:
             name: {{ .Release.Name }}--service
