@@ -12,4 +12,6 @@ spec:
       protocol: TCP
       name: http
   selector:
-    {{- include "hello-1.selectorLabels" . | nindent 4 }}
+    matchLabels:
+      app.kubernetes.io/instance: {{ .Release.Name }}
+      app.kubernetes.io/name: hello-1

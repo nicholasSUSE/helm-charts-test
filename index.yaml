@@ -3,9 +3,9 @@ entries:
   hello-1:
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2023-07-16T17:35:51.368996784-03:00"
+    created: "2023-07-17T13:49:54.083267673-03:00"
     description: A Helm chart Hello World example for Kubernetes with versioning
-    digest: 92df8fa5324e5cd761f6954dfb7f560d654bbfd9c8f4c7f21c7f36845c72ba65
+    digest: 041baf6313a7c1adccacc0f5b650b51b54418a4b248cca6c430ab921b9bd51c5
     name: hello-1
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-16T17:35:51.368819471-03:00"
+    created: "2023-07-17T13:49:54.082981677-03:00"
     description: A Helm chart Hello World example for Kubernetes with versioning
     digest: 070e63958692bbb852a26d628a60309a04f9e90a58568da0c070afaf9d932db6
     name: hello-1
@@ -24,7 +24,7 @@ entries:
   hello-2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-16T17:35:51.369464359-03:00"
+    created: "2023-07-17T13:49:54.083410628-03:00"
     description: A Helm chart for Kubernetes
     digest: 175feaa3d7bcd2158c96b2317f8dce0f88bcc83ef22b6ed86877da633093f22c
     name: hello-2
@@ -35,7 +35,7 @@ entries:
   hello-3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-16T17:35:51.369888373-03:00"
+    created: "2023-07-17T13:49:54.084018498-03:00"
     description: A Helm chart for Kubernetes
     digest: a6e455402db1045a57788023a3725e3f994a094edfaacd32ebba5d44a2985750
     name: hello-3
@@ -43,4 +43,4 @@ entries:
     urls:
     - https://github.com/nicholasSUSE/helm-charts-test/packages/hello-3-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-16T17:35:51.359752736-03:00"
+generated: "2023-07-17T13:49:54.082701575-03:00"
