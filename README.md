@@ -174,3 +174,11 @@ kubectl get all
 helm uninstall hello-1-test
 
 ```
+
+## Reference for Rancher catalogv2/git tests
+
+| Git Branch | Chart Versions | App Versions   |  
+|         ---|             ---|             ---|
+| main       | 1.0.0          | 1.0.0          |
+| test-1     | 1.0.0 -> 2.0.0 | 1.0.0 -> 2.0.0 |
+| test-2     | 1.0.0 -> 5.0.0 | 1.0.0 -> 5.0.0 |
