@@ -4,10 +4,6 @@ metadata:
   name: "{{ .Release.Name }}--deployment-{{ .Chart.Version }}"
   labels:
     {{- include "hello-3.labels" . | nindent 4 }}
-  annotations:
-    "helm.sh/hook": pre-upgrade
-    "helm.sh/hook-weight": "1"
-    "helm.sh/hook-delete-policy": hook-succeeded
 spec:
   replicas: 1
   selector:
