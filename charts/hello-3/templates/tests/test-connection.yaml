@@ -6,10 +6,6 @@ metadata:
     app: {{ .Release.Name }}
     chart: {{ .Chart.Name }}-{{ .Chart.Version }}
     release: {{ .Release.Name }}
-  annotations:
-    "helm.sh/hook": pre-upgrade
-    "helm.sh/hook-weight": "1"
-    "helm.sh/hook-delete-policy": hook-succeeded
 spec:
   backoffLimit: 5
   template:
