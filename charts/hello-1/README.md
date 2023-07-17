@@ -1,8 +1,8 @@
 # Test Reference
 | Git Branch | Chart Versions | App Versions   |  You are |
 |         ---|             ---|             ---|       ---|
-| main       | 1.0.0          | 1.0.0          |  **HERE**|
-| test-1     | 1.0.0 -> 2.0.0 | 1.0.0 -> 2.0.0 |          |
+| main       | 1.0.0          | 1.0.0          |          |
+| test-1     | 1.0.0 -> 2.0.0 | 1.0.0 -> 2.0.0 | **HERE** |
 | test-2     | 1.0.0 -> 5.0.0 | 1.0.0 -> 5.0.0 |          |
 
 # How-to
