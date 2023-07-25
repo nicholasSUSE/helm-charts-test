@@ -1,6 +1,6 @@
 apiVersion: v2
 name: hello-2
 description: Hello-2 Chart with Ingress + Nginx and automatic job testing
-version: 5.0.5
-appVersion: "5.0.5"
+version: 5.0.6
+appVersion: "5.0.6"
 icon: https://raw.githubusercontent.com/nicholasSUSE/helm-charts-test/main/icons/chart-2.jpg
